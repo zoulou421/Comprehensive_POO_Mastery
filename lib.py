@@ -17,16 +17,25 @@ class MyList(list):
             self.remove(element)
             return True
         return False
+    def showListElement(self):
+        print(f"My list of {self.name} :")
+        for element in self:
+            print(f" -{element}")
 
 if __name__=="__main__":
-    myList=MyList("courses")
-    myList.addElementToList("courses")
-    myList.removeElementInList("courses")
-    myList.addElementToList(0)
+    myList=MyList("Shopping")
+    myList.addElementToList("Avocado")
+    #myList.removeElementInList("Apples")
+    myList.addElementToList("Potatoes")
+    myList.addElementToList("Bananas")
+    #myList.addElementToList(0)
     '''result = myList.addElementToList("Apples")
     if result:
         pass # output element on UI for example
     '''
     print(myList)
+    print(myList.showListElement())
+
+    myList.showListElement()
 
 
