@@ -3,11 +3,16 @@ A basic class using class attributes
 """
 class Vehicle:
     """
-     class don't have to be instanciated to have acces to attributes
+     attributes of class
     """
     mark_v="Toyota"
     color_v="red"
-
-#Test
+#Test without instantiation
 print(Vehicle.mark_v)
 print(Vehicle.color_v)
+
+#Test with instantiation
+vehicle_01=Vehicle()
+vehicle_02=Vehicle()
+print(vehicle_01.mark_v)
+print(vehicle_02.mark_v)
