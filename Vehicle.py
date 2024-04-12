@@ -36,3 +36,17 @@ print(vehicle_02.mark_v)
 #N.B:most of the case, it is recommended to use instanciate attribute for the specifications reasons
 
 #You need create a constructor explicitly to be able initialize instanciate attributes
+
+'''
+IMPORTANT POINTS TO REMEMBER
+
+To create a class, we use the keyword:class.
+
+To initialize an instance, we use the __init__ method.
+
+To define an instance attribute, we use self.attribute = value.
+
+To create an instance, we use the class name, followed by parentheses.
+
+To set default attributes when creating an instance, specify the values sent to the __init__ method inside parentheses.
+'''
