@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34d0060b-0698-4d71-9376-d950f3723170" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.User.executor": "Run",
     "Python.Vehicle (1).executor": "Run",
     "Python.Vehicule.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -40,7 +42,29 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Vehicle (1)">
+  <component name="RunManager" selected="Python.User">
+    <configuration name="User" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Comprehensive_POO_Mastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vehicle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Comprehensive_POO_Mastery" />
       <option name="ENV_FILES" value="" />
@@ -87,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.User" />
         <item itemvalue="Python.Vehicle (1)" />
         <item itemvalue="Python.Vehicle" />
       </list>
