@@ -8,10 +8,11 @@ class User1:
 @dataclass
 class User2:
     first_name:str
-    last_name:str ="" #you can affect default value or not.Default value stands for:optional during the creation
+    last_name:str ="" #you can affect default value or not.
+    # Default value stands for:optional during the creation
 
 
 #Test of User2
-name = User2(first_name="Bonevy",last_name="BEBY") #last name is optional
+name = User2(first_name="Bonevy",last_name="BEBY") #last name is optional. if you take if it will work.
 print(name.first_name)
 print(name.last_name)
