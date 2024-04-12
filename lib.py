@@ -1,4 +1,11 @@
+#external module
+import json
 import logging
+import os
+
+
+#internal module
+from constants import DATA_DIR
 
 LOGGER = logging.getLogger()
 class MyList(list):
@@ -21,6 +28,13 @@ class MyList(list):
         print(f"My list of {self.name} :")
         for element in self:
             print(f" -{element}")
+    def saveListElement(self):
+        myPath = os.path.join(DATA_DIR, f"{self.name}.json")
+        if not os.path.exists(DATA_DIR):
+            os.makedirs(DATA_DIR)
+        with open(myPath, "w") as f:
+            json.dump(self, f, indent=4)
+        return True
 
 if __name__=="__main__":
     myList=MyList("Shopping")
@@ -37,5 +51,6 @@ if __name__=="__main__":
     print(myList.showListElement())
 
     myList.showListElement()
+    myList.saveListElement()
 
 
