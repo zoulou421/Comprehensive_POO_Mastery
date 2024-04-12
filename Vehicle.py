@@ -31,6 +31,6 @@ print(vehicle_01.mark_v)
 print(vehicle_02.mark_v)
 
 #in conclusion: instantiate attribute only affects itself(the object instanciated)
-# while class attribute affects the whole both [instanciate and class attributes]
+# while class attribute affects the whole class  [instanciate and class attributes,etc]
 
 #N.B:most of the case, it is recommended to use instanciate attribute for the specifications reasons
