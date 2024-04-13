@@ -24,7 +24,7 @@ class Vehicle2:
         print(f"You have {Vehicle2.nb_vehicle_created} in your garage")
 
     def __str__(self):
-        return f"Vehicle of marque {self.mark} with maximal speed of {self.speed}
+        return f"Vehicle of marque {self.mark} with maximal speed of {self.speed}"
 
 toyo= Vehicle2.toyota()
 suzi= Vehicle2.suziki()
