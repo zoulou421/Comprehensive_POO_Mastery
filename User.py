@@ -19,7 +19,7 @@ class User2:
 
 
 #Test of User2
-my_name = User2(first_name="Bonevy",last_name="BEBY") #last name is optional. if you take if it will work.
+my_name = User2(first_name="Bonevy",last_name="BEBY") #last name is optional. if you take out if it will work.
 print(my_name.first_name)
 print(my_name.last_name)
 
