@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34d0060b-0698-4d71-9376-d950f3723170" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="NamedScopeManager">
+    <scope name="Python files" pattern="file:*.py" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ezzXrELm30sMW3mdrdadpgZXvJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,15 +38,17 @@
   "keyToString": {
     "Python.User.executor": "Run",
     "Python.Vehicle (1).executor": "Run",
+    "Python.Vehicle2.executor": "Run",
     "Python.Vehicule.executor": "Run",
     "Python.constants.executor": "Run",
     "Python.lib.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.lib">
+  <component name="RunManager" selected="Python.Vehicle2">
     <configuration name="User" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Comprehensive_POO_Mastery" />
       <option name="ENV_FILES" value="" />
@@ -89,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Vehicle2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Comprehensive_POO_Mastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="B:\Master2-2023-2024\learn-python\Comprehensive_POO_Mastery\Vehicle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vehicle2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Vehicle2" />
         <item itemvalue="Python.lib" />
         <item itemvalue="Python.constants" />
         <item itemvalue="Python.User" />
         <item itemvalue="Python.Vehicle (1)" />
-        <item itemvalue="Python.Vehicle" />
       </list>
     </recent_temporary>
   </component>
