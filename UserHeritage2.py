@@ -16,7 +16,12 @@ class UserHeritage2:
 
 class PublicUser(UserHeritage2):
     def __init__(self,name, first_name):
-        UserHeritage2.__init__(self,name,first_name)
+        #UserHeritage2.__init__(self,name,first_name) you replace it with super() as follow:
+        super().__init__(name,first_name)
+    def show_movies(self):
+        for movie in movies:
+            if not movie.startswith("private_"):
+             print(movie)
 
 
 myUser= PublicUser("BEBY", "Bonevy")
